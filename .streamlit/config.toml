@@ -1,0 +1,26 @@
+[global]
+developmentMode = false
+
+[server]
+runOnSave = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+primaryColor = "#5c69d4"
+backgroundColor = "#fcfcfe"
+secondaryBackgroundColor = "#f4f5fb"
+textColor = "#363654"
+font = "sans serif"
+
+[runner]
+magicEnabled = true
+
+[client]
+showErrorDetails = true 
